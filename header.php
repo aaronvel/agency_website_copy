@@ -17,9 +17,9 @@
 				</button>
 				<div class = "collapse navbar-collapse navHeaderCollapse">
 					<ul class = "nav navbar-nav navbar-right">
-						<li class="active"><a href = "index.php">Home</a></li>
+						<li class=<?php if ($pageTitle == "Home") { echo "active";}?>><a href = "index.php">Home</a></li>
 						<li><a href = "#">Blog</a></li>
-						<li class = "dropdown">
+						<li class =<?php if ($pageTitle == "What We Do") { echo "\"" . "dropdown" . " active" . "\"";} else { echo "dropdown";}?>>
 							<a href ="what_we_do.php" class = "dropdown-toggle" data-toggle = "dropdown">What We Do</a>
 								<ul class = "dropdown-menu">
 									<li> <a href="what_we_do.php">Multi-Platform Design</a></li>
