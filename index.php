@@ -11,7 +11,7 @@
 					<center>
 			    	<h1>Hello, world!</h1>
 			    	<p>Proin pharetra tristique leo, id fringilla neque euismod eget. In ornare nisi velit, vehicula porta felis molestie sed. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Quisque congue vitae massa a congue. Aenean pretium ornare tristique. Cras a lectus sed massa iaculis semper. Suspendisse ullamcorper convallis fringilla. Vivamus et eros sed felis lobortis viverra eu ut arcu. Mauris ornare orci lorem, sed fringilla tortor accumsan et. Aliquam posuere elementum aliquet.</p>
-			    	<p><a class="btn btn-primary btn-lg">Learn more</a></p>
+			    	<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p>
 			  		</center>
 			  	</div>
 			</div>
