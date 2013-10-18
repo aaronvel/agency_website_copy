@@ -54,13 +54,25 @@
 			</div>
 		</div> -->
 
-		<div class="container">
+		<div class="container" id = "sub-row">
 
 			<div class="row">
 				<center>
-				<div class="col-md-4"><img src="images/blue_shamrock.jpg" alt="shamrock1" class="img-rounded"><h2>Title</h2><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat tortor, cursus a sapien ut, feugiat semper nulla. Vestibulum ac nulla ac tellus posuere euismod et id magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In facilisis massa vitae lorem elementum gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sagittis libero vel orci auctor sodales vel ut velit. In sed tempus neque, feugiat dictum lectus.</p></div>
-				<div class="col-md-4"><img src="images/blue_shamrock.jpg" alt="shamrock2" class="img-rounded"><h2>Title</h2><p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p></div>
-				<div class="col-md-4"><img src="images/blue_shamrock.jpg" alt="shamrock3" class="img-rounded"><h2>Title</h2><p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p></div>
+				<div class="col-md-4">
+					<img src="images/blue_shamrock.jpg" alt="shamrock1" class="img-rounded">
+					<h2>Title</h2>
+					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat tortor, cursus a sapien ut, feugiat semper nulla. Vestibulum ac nulla ac tellus posuere euismod et id magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In facilisis massa vitae lorem elementum gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sagittis libero vel orci auctor sodales vel ut velit. In sed tempus neque, feugiat dictum lectus.</p>
+					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
+				<div class="col-md-4">
+					<img src="images/blue_shamrock.jpg" alt="shamrock2" class="img-rounded">
+					<h2>Title</h2>
+					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
+					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
+				<div class="col-md-4">
+					<img src="images/blue_shamrock.jpg" alt="shamrock3" class="img-rounded">
+					<h2>Title</h2>
+					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
+					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
 				</center>
 			</div>
 
