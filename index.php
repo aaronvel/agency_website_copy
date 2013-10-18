@@ -1,3 +1,4 @@
+<!--Header -->
 <?php
 
 	$pageTitle = "Home";
@@ -5,6 +6,8 @@
 	include('header.php');
 
 ?>
+
+<!--Jumbotron -->
 		<div class = "container">
 			<div class="jumbotron">
 				<div class="container">
@@ -54,66 +57,43 @@
 			</div>
 		</div> -->
 
-		<div class="container" id = "sub-row">
+<!--Content Rows -->
+		<div class="container sub-row">
 
 			<div class="row">
-				<center>
 				<div class="col-md-4">
+					<center>
 					<img src="images/blue_shamrock.jpg" alt="shamrock1" class="img-rounded">
-					<h2>Title</h2>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam erat tortor, cursus a sapien ut, feugiat semper nulla. Vestibulum ac nulla ac tellus posuere euismod et id magna. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; In facilisis massa vitae lorem elementum gravida. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Suspendisse sagittis libero vel orci auctor sodales vel ut velit. In sed tempus neque, feugiat dictum lectus.</p>
-					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
-				<div class="col-md-4">
-					<img src="images/blue_shamrock.jpg" alt="shamrock2" class="img-rounded">
-					<h2>Title</h2>
-					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
-					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
-				<div class="col-md-4">
-					<img src="images/blue_shamrock.jpg" alt="shamrock3" class="img-rounded">
-					<h2>Title</h2>
-					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
-					<p><a class="btn btn-primary btn-lg" href="#contact" data-toggle="modal">Learn more</a></p><br /><br /></div>
 				</center>
+				</div>
+				<div class="col-md-8">
+					<h2>Title</h2>
+					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
+					<p><a class="btn btn-primary btn-lg pull-right" href="#contact" data-toggle="modal">Learn more</a></p>
+				</div>
+			</div>
+
+			<div class="row">
+				<div class="col-md-4">
+					<center>
+					<img src="images/blue_shamrock.jpg" alt="shamrock1" class="img-rounded">
+				</center>
+				</div>
+				<div class="col-md-8">
+					<h2>Title</h2>
+					<p>Phasellus mollis, erat quis suscipit ultricies, ante est venenatis dolor, ut cursus libero sem non diam. Mauris consequat faucibus enim, a interdum justo elementum ut. Nunc auctor orci vel orci lobortis egestas. Nunc viverra nisi nec dolor faucibus, ac malesuada nisi tincidunt. In mattis nunc varius justo pharetra dictum. Suspendisse vulputate at purus et elementum. Maecenas pretium diam nisi, a blandit purus adipiscing in. Vivamus auctor, quam pellentesque eleifend fringilla, sem mi suscipit metus, ac porttitor erat ante vitae sem.</p>
+					<p><a class="btn btn-primary btn-lg pull-right" href="#contact" data-toggle="modal">Learn more</a></p>
+				</div>
+			</div>
+			
+		</div>
+		
+				
 			</div>
 
 		</div>
 
-
-		<!--<div class="modal fade" id="contact" role="dialog">
-			<div class="modal-dialog">
-				<div class="modal-content">
-					<form class = "form-horizontal">
-						<div class ="modal-header">
-							<h4>Contact Us</h4>
-						</div>
-						<div class="modal-body">
-							<div class="form-group">
-								<label for="inputName" class="col-lg-2 control-label">Name</label>
-								<div class = "col-lg-10">
-									<input type="text" class="form-control" id="inputName" placeholder="Full Name">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputEmail" class="col-lg-2 control-label">Email</label>
-								<div class = "col-lg-10">
-									<input type="email" class="form-control" id="inputEmail" placeholder="you@example.com">
-								</div>
-							</div>
-							<div class="form-group">
-								<label for="inputMessage" class="col-lg-2 control-label">Message</label>
-								<div class = "col-lg-10">
-									<textarea class="form-control" rows="8"></textarea>
-								</div>
-							</div>
-						</div>
-						<div class="modal-footer">
-							<a class= "btn btn-default" data-dismiss = "modal">Close</a>
-							<button type="submit" class="btn btn-primary">Submit</button>
-						</div>
-					</form>
-				</div>
-			</div>
-		</div> -->
+<!--Footer -->
 <?php 
 	include('contact_modal.php');
 	include('footer.php'); 
